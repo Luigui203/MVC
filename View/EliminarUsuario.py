@@ -31,11 +31,11 @@ class EliminarUsuario():
         self.txtRol=tk.Entry(self.ventana,state="disabled")
         self.txtRol.place(x=160,y=235,width=150,height=25)
 
-        self.icono_eliminar=tk.PhotoImage(file=r"src\icons\bin_closed.png")
+        self.icono_eliminar=tk.PhotoImage(file=r"MVC\src\icons\bin_closed.png")
         self.btnEliminar=tk.Button(self.ventana,text="Eliminar",image=self.icono_eliminar,compound="left")
         self.btnEliminar.place(x=70,y=310,width=80,height=25)
         
-        self.icono_limpiar=tk.PhotoImage(file=r"src\icons\textfield_delete.png")
+        self.icono_limpiar=tk.PhotoImage(file=r"MVC\src\icons\textfield_delete.png")
         self.btnLimpiar=tk.Button(self.ventana,text="Limpiar",image=self.icono_limpiar,compound="left")
         self.btnLimpiar.place(x=195,y=310,width=80,height=25)
 
